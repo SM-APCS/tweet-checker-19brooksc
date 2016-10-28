@@ -20,7 +20,8 @@ public class TweetTester {
         
         Scanner scan = new Scanner (System.in);
         //this opens a scanner
-         String tweet = scan.nextLine();
+        String tweet;
+         tweet = scan.nextLine();
          int num = tweet.length();
          //finds the length of the string
          System.out.println("The length is: " +num);
