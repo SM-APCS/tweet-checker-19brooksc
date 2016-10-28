@@ -19,7 +19,12 @@ public class TweetTester {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner (System.in);
-         String tweet;
+        //this opens a scanner
+         String tweet = scan.nextLine();
+         int num = tweet.length();
+         //finds the length of the string
+         System.out.println("The length is: " +num);
+         //outputs the length
          
     }
     
